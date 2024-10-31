@@ -7,6 +7,7 @@ public class RataNilai07 {
 
         while (i <= 5) {
             totalNilai = 0;
+            System.out.println("input nilai mahasiswa ke " + i);
             for (int j = 1; j <= 5; j++) {
                 System.out.println("Nilai ke-" + j + "=");
                 nilaiMhs = sc.nextInt();
